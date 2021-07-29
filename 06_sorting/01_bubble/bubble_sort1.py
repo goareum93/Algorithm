@@ -8,6 +8,7 @@ from typing import MutableSequence
 # MutableSequence : list의 제네릭 버전.
 
 def bubble_sort(a: MutableSequence) -> None:
+    # None은 값이 없음을 나타내는 값이다. 함수의 반환값을 지정하지 않으면 None이 반환된다.
     """버블 정렬"""
 
     n = len(a)
