@@ -9,3 +9,5 @@ for i in range(19) :
   for j in range(19) : 
     print(d[i][j], end=' ')    #공백을 두고 한 줄로 출력
   print()                          #줄 바꿈
+
+
